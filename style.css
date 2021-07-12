@@ -15,7 +15,7 @@ body {
   margin: 0px 30px;
   max-width: 1900px;
 }
-
+/* HEADER */
 .header {
   display: grid;
   grid-template-columns: auto 1fr auto auto;
@@ -63,6 +63,7 @@ a {
   color: #0065fc;
   border-top: 3px solid #0065fc;
 }
+/* PUB */
 .text-pub {
   display: flex;
   max-width: 1900px;
@@ -182,6 +183,7 @@ a {
 .info h5 {
   font-weight: 300;
 }
+/* CARTS */
 .flexContainer {
   max-width: 1900px;
   display: flex;
@@ -328,7 +330,6 @@ a {
   padding-left: 10px;
   padding-bottom: 10px;
 }
-
 .lesPlusPopulaires img {
   display: flex;
   height: 10rem;
@@ -378,7 +379,6 @@ a {
   font-weight: bold;
   font-size: large;
 }
-
 .activitesColumn {
   display: flex;
   flex-direction: column;
@@ -413,7 +413,6 @@ a {
   justify-content: space-between;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  /* border: solid 1px blueviolet */
 }
 .activitesColumn-X2 img {
   display: flex;
@@ -423,9 +422,7 @@ a {
   justify-content: space-between;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  /* border: solid 1px blueviolet */
 }
-
 /* FOOTER */
 .footer {
   background-color: #f2f2f2;
@@ -436,9 +433,7 @@ a {
   padding: 30px;
   width: 100%;
   justify-content: space-evenly;
-  /* border: solid 1px red; */
 }
-
 .footer div {
   display: flex;
   flex-direction: column;
@@ -456,13 +451,8 @@ a {
   font-weight: lighter;
   font-size: large;
 }
-
 /* responsive menu */
 @media (max-width: 1310px) {
-  .hebergements {
-    display: flex;
-    width: 100%;
-  }
   .lesPlusPopulaires {
     width: 100%;
     margin-bottom: 30px;
@@ -474,11 +464,9 @@ a {
     order: -1;
   }
   .lesPlusPopulairesBoxConfig {
-    /* display: flex; */
     background-color: white;
     margin: 15px;
     width: 30%;
-
     border-radius: 20px;
     flex-direction: column;
   }
@@ -486,9 +474,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     width: auto;
-    /* flex-direction: column;  */
   }
-
   .lesPlusPopulaires img {
     display: flex;
     height: 10rem;
@@ -498,6 +484,10 @@ a {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: initial;
+  }
+  .hebergements {
+    display: flex;
+    width: 100%;
   }
   .hebergements h4 {
     margin-top: 20px;
@@ -531,9 +521,7 @@ a {
     background-color: #f2f2f2;
     order: -1;
   }
-
   .lesPlusPopulairesBoxConfig {
-    /* display: flex;  */
     width: 100%;
     background-color: white;
     margin: 15px;
@@ -648,6 +636,7 @@ a {
   }
 }
 @media (max-width: 600px) {
+  /* HEADER */
   .header {
     grid-template-columns: auto 1fr auto;
     grid-template-areas: "logo . signIn" "navLinks  navLinks navLinks";
@@ -675,6 +664,7 @@ a {
     border-bottom-color: #0065fc;
     border-top-style: none;
   }
+  /* RESERCH FIELD */
   .reserch-field {
     width: 170px;
     height: 31px;
@@ -710,6 +700,7 @@ a {
     margin-bottom: 10px;
     align-items: flex-start;
   }
+  /* CARTS */
   .hebergements {
     width: 100%;
     background-color: white;
