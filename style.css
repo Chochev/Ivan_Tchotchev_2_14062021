@@ -169,23 +169,24 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 18px;
-  height: 18px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
-  background-color: #f2f2f2;
-  border-color: solid 1px #f2f2f2;
+  background-color: white;
+  border: solid 2px #f2f2f2;
 }
 .info i {
   display: flex;
   font-size: x-small;
   color: #0065fc;
+  padding-bottom: 2px;
 }
 .info h5 {
   font-weight: 300;
 }
 /* CARTS */
 .flexContainer {
-  max-width: 1900px;
+  max-width: 1920px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -428,7 +429,7 @@ a {
   background-color: #f2f2f2;
   display: flex;
   flex-direction: row;
-  max-width: 1900px;
+  max-width: 1920px;
   align-items: center;
   padding: 30px;
   width: 100%;
@@ -695,11 +696,21 @@ a {
   }
   .info {
     display: flex;
-    max-width: 1900px;
     margin-top: 10px;
     margin-bottom: 10px;
     align-items: flex-start;
   }
+  .info div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border: solid 2px #f2f2f2;
+    padding-bottom: 0px;
+   }
   /* CARTS */
   .hebergements {
     width: 100%;
