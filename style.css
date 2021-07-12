@@ -270,7 +270,7 @@ a {
   justify-content: space-between;
   background-color: #f2f2f2;
   align-items: flex-start;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 .titre {
   display: flex;
@@ -337,8 +337,8 @@ a {
   object-fit: cover;
   justify-content: space-between;
   padding: 2px;
-  border-top-left-radius: 20px;
-  border-bottom-left-radius: 20px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
 /* ACTIVITY BOX */
 .activites {
@@ -482,7 +482,8 @@ border: solid 1px #f2f2f2;
     background-color: white;
    margin: 15px;
    width: 30%;
-   border-radius: 10px;
+   
+   border-radius: 20px;
    flex-direction: column;
   }
   .lesPlusPopulairesTextConfig{
@@ -497,7 +498,7 @@ border: solid 1px #f2f2f2;
     height: 10rem;
     width: 100%; 
     object-fit: cover;
-    padding: 2px;
+    padding: 5px;
     border-top-left-radius: 10px;
     border-top-right-radius:10px;
     border-bottom-left-radius: initial;
@@ -561,7 +562,7 @@ border: solid 1px #f2f2f2;
       height: 12rem;
       width: 100%;
       object-fit: cover;
-      padding: 2px;
+      padding: 5px;
       border-top-left-radius: 10px;
       border-top-right-radius:10px;
       border-bottom-left-radius: initial;
