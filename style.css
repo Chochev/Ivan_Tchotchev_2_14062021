@@ -201,12 +201,12 @@ a {
   font-weight: 300;
 }
 /* CARTS */
-.flexContainer {
+ .flexContainer {
   max-width: 1920px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
+} 
 /* hebergments */
 .hebergements {
   background-color: #f2f2f2;
@@ -222,7 +222,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   justify-content: flex-start;
-  font-size: 20px;
+  font-size: 25px;
   margin-left: 25px;
 }
 .hebergementsPicContainer {
@@ -300,6 +300,10 @@ a {
   font-weight: bold;
   font-size: 20px;
 }
+.titre h2{
+  font-size: 25px;
+  font-weight: bold;
+}
 .populairesCartContainer {
   display: flex;
   flex-wrap: wrap;
@@ -369,7 +373,7 @@ a {
   display: flex;
   width: 100%;
   flex-wrap: wrap;
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   align-items: flex-start;
   margin-left: 25px;
